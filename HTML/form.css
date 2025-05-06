@@ -1,0 +1,30 @@
+form label{
+    color: #e21b1b;
+    
+}
+form button{
+    cursor: pointer;
+    background-color: chartreuse;
+    color: antiquewhite;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 18px;
+    border-radius: 9px;
+
+    
+}
+form button:hover{
+    color: white;
+    background-color: #e21b1b;
+    transform: scale(1.10);
+}
+form input, textarea, select{
+    border-radius: 9px;
+    border: 2px solid black;
+}
+body{
+    border: 10px red;
+}
+.nm{
+color: blue;
+}

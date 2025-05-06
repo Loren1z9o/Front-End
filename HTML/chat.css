@@ -1,0 +1,75 @@
+/*
+ * REGRAS GERAL DE RESET
+ * Vale observar que todo navegador possui de fábrica alguns "estilos"
+ * estes estilos deixam os elementos mais básicos do html com determinados
+ * tamanhos de fontes e principalmente espaçamento (margin e padding) entre
+ * elementos. Por vezes esses "espaços adicionais de fábrica" complicam o
+ * a customização de nosso projeto pois queremos afastar e posicionar um
+ * elemento com exatidão e na nossa conta o que veio "de fábrica" acaba
+ * somando junto e atrapalhando. Por isso um bom costume é sempre "limpar"
+ * esse css padrão do navegador, as próximas linhas desse arquivo fazem
+ * essa limpeza, chamamos isso de RESET. Após essa "limpa" podemos iniciar o
+ * nosso próprio CSS costumizado.
+ **/
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* prettier-ignore */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+/* prettier-ignore */
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+ * O SEU ESTILO CSS DESTE EXERCÍCIO PODE VIR DESTA LINHA PARA BAIXO
+ * Da próxima linha vazia após esse comentário em diante o CSS é "seu"
+ * podem criar a regra que acharem necessário para chegar no resultado
+ * visual que solicitei no exercício, recomendo o uso de CLASSES de CSS
+ * sempre que possível, vocês podem "conectar" um estilo a um elemento do
+ * HTML usando classes sempre que ele tiver o atributo class="zzzz" escrito
+ * em seu código de declaração, assim todos os elementos que possuirem a
+ * mesma "class" terão o mesmo estilo visual, e assim poderemos repetir
+ * estilos tranquilamente sem precisar radicalizar a estilização de
+ * todas as tags DIVs de uma só vez no projeto.
+ **/
+
+/* Quando um elemento possui a declaração de um "ID" podemos considera-lo
+ * como um elemento único, logo ele não poderá se repetir ao longo do HTML
+ * nem do CSS. Estilos para ID devem começar com # e para classes começar
+ * com . (ponto). Por exemplo podemos limitar a largura de nosso chat...
+ **/
+#chat-screen {
+  border: 1px solid green;
+  max-width: 720px;
+  margin: 12px auto; /* 12px em cima e embaixo; o `auto` faz com que na horizontal estejamos centralizados */
+}
+
+/* Por exemplo, vamos supor que eu queira adicionar uma borda verde em
+ * todos os textos do chat cujo a classe (class) seja "msg-chat":
+ **/
+
+.msg-chat {
+  border: 1px solid green;
+  border-radius: 4px;
+  padding: 3px 4px;
+}
+
+/* AGORA É COM VOCÊ MEU/MINHA JOVEM */

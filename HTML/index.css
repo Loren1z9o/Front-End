@@ -1,0 +1,41 @@
+div#site{
+    max-width: 900px;
+    margin-left:auto;
+    margin-right: auto;
+    border: 3px solid black;
+    padding: 16px
+}
+
+body { 
+    font: 16px sans-serif;
+   
+}
+header{
+    background-color: gray;
+    text-decoration: underline black;
+    display: flex
+    
+    
+}
+h1{
+    
+    font-size: 72px;
+    margin: 0;
+    margin-bottom: 0px;
+    padding: 21px;
+}
+a{
+    color: #ff0000;
+    font-size: 30px;
+    font-weight: 1000;
+    text-decoration: none;
+    text-decoration: underline;
+}
+base{
+    padding: 10px
+    
+}
+.link{
+    display:flex;
+    justify-content: center;
+}
