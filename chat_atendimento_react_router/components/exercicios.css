@@ -1,0 +1,77 @@
+body{
+    font: 16px Arial;
+}
+.site{
+    border: 3px solid black;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    background-color: red
+}
+header{
+    text-align: center;
+    color: red;
+    border-bottom: 3px solid black;
+    text-decoration: underline;
+    background-color: white;
+    padding: 6px;
+}
+form {
+    border-top: 3px solid black;
+    padding: 8px;
+    display:flex;
+    gap: 6px;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+form input{
+    flex: 1;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.borda{
+    border: 3px solid black;
+    margin: 6px ;
+    padding: 8px;
+    background-color: white;
+    max-height: 250px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+.item{
+    margin-bottom: 16px;
+    display:flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items:flex-start;
+    background-color: white;
+    
+}
+.item2{
+    margin-bottom: 16px;
+    display:flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items:flex-end;
+    background-color: white;
+}
+button{
+    background-color: green;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    border: 0;
+    border-radius: 60px;
+    padding: 6px;
+}
+button:hover{
+    background-color: darkgreen;
+}
+.msg-chat{
+
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 6px;
+}
